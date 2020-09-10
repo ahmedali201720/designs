@@ -1,0 +1,57 @@
+@import "fonts/font-face.css";
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+}
+
+div {
+    width: 50%;
+    padding: 25px;
+    margin: auto;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    overflow: auto;
+}
+
+input[type=text],
+input[type="email"],
+select {
+    width: 100%;
+    border: 1px solid black;
+    display: block;
+    margin: 10px 0px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 15%;
+    padding: 15px 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #4cAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+label {
+    font-family: 'roboto';
+    font-style: bold;
+}
+
+p {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
